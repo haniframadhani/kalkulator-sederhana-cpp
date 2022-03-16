@@ -2,18 +2,18 @@
 
 float hasil;
 
-float jumlah(float a, float b);
-float kali(float a, float b);
-float kurang(float a, float b);
-float bagi(float a, float b);
+int jumlah(float a, float b);
+int kali(float a, float b);
+int kurang(float a, float b);
+int bagi(float a, float b);
 
 int main()
 {
     float a, b;
     char op;
-    std::cout << "masukkan angka pertama : ";
+    std::cout << "masukkan angka ke 1 : ";
     std::cin >> a;
-    std::cout << "masukkan angka kedua : ";
+    std::cout << "masukkan angka ke 2 : ";
     std::cin >> b;
     std::cout << "masukkan operator (+, -, *, /) : ";
     std::cin >> op;
