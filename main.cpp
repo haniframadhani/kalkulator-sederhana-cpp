@@ -11,9 +11,9 @@ int main()
 {
     float a, b;
     char op;
-    std::cout << "masukkan angka ke 1 : ";
+    std::cout << "masukkan angka pertama : ";
     std::cin >> a;
-    std::cout << "masukkan angka ke 2 : ";
+    std::cout << "masukkan angka kedua   : ";
     std::cin >> b;
     std::cout << "masukkan operator (+, -, *, /) : ";
     std::cin >> op;
@@ -64,3 +64,4 @@ float bagi(float a, float b)
     hasil = a / b;
     return hasil;
 }
+return 0;
